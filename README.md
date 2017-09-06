@@ -1,2 +1,2 @@
-# my-portfolio
-Portfolio on AWS
+# This is my Portfolio on github
+This Portfolio uses AWS and reactJS 
