@@ -1,5 +1,5 @@
 import boto3
-from botocore.Client import Config
+from botocore.client import Config
 import StringIO
 import zipfile
 import mimetypes
