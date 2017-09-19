@@ -25,8 +25,7 @@ def lambda_handler(event, context):
                 portfolio_bucket.Object(nm).Acl().put(ACL='public-read')
 
         print "Job Done!"
-        topic.publish(Subject="Portfolio Deployed", Message="The portfolio has been deplyed succsfully")
+        topic.publish(Subject="Portfolio Deployed", Message="The portfolio has been Deployed succsfully")
     except:
-        topic.publish(Subject="Portfolio Failed Deployement", Message="The portfolio has been deplyed succsfully")
+        topic.publish(Subject="Portfolio Failed Deployment", Message="The portfolio could not bee be Deployed succsfully")
         raise
-    
